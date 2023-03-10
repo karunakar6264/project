@@ -1,0 +1,112 @@
+/* mobile */
+@media(max-width:768px){
+    [class*="col"]{
+        width: 100%;
+    }
+    .container{margin: auto 20px !important;}
+    /* contact info */
+    .be-contact-info>.container>.row>.col6>.be-icon{
+        text-align: left;
+    }
+    /* navigation */
+    header>nav{text-align: center;}
+    header>nav>ul{float: none; }
+    header>nav>ul>li{display: block;}
+     /* banner */
+.be-desktop-banner, .be-tab-banner{
+    display: none;
+}
+.be-mobile-banner{
+    display: block;
+}
+.be-mobile-banner>video{
+    width: 100%;
+}
+.be-mobile-banner{
+    position: relative;
+}
+.be-mobile-banner>.be-banner-text{
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    color:#fff ;
+}
+.be-mobile-banner>.be-banner-text>p, .be-tab-banner>.be-banner-text>button{
+    font-size: 20px;
+}
+.be-mobile-banner>.be-banner-text>h1{
+    font-size: 55px;
+}
+.be-mobile-banner>.be-banner-text>button{
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #dc3748;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+}
+.be-mobile-banner>.be-banner-text>p>span, .be-mobile-banner>.be-banner-text>h1>span{
+    color: rgb( 244,192,12);
+}
+}
+
+/* tab */
+@media(min-width:768px) and (max-width:1200px){
+.coltab1{width: 8.33%;}
+.coltab2{width: 16.66%;} 
+.coltab3{width: 25%;}
+.coltab4{width: 33.33%;}
+.coltab5{width: 41.66%;}
+.coltab6{width: 50%;}
+.coltab7{width: 58.33%;}
+.coltab8{width: 66.66%;}
+.coltab9{width: 75%;}
+.coltab10{width:83.33%;}
+.coltab11{width:91.66%;}
+.coltab12{width:100%;}
+
+[class*="coltab"]{
+    float: left;
+    padding: 10px;
+}
+.container{margin: auto 50px !important;}
+ /* navigation */
+ header>nav{text-align: center;}
+ header>nav>ul{float: none; }
+ /* banner */
+.be-desktop-banner, .be-mobile-banner{
+    display: none;
+}
+.be-tab-banner{
+    display: block;
+}
+.be-tab-banner>video{
+    width: 100%;
+}
+.be-tab-banner{
+    position: relative;
+}
+.be-tab-banner>.be-banner-text{
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    color:#fff ;
+}
+.be-tab-banner>.be-banner-text>p, .be-tab-banner>.be-banner-text>button{
+    font-size: 20px;
+}
+.be-tab-banner>.be-banner-text>h1{
+    font-size: 55px;
+}
+.be-tab-banner>.be-banner-text>button{
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #dc3748;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+}
+.be-tab-banner>.be-banner-text>p>span, .be-desktop-banner>.be-banner-text>h1>span{
+    color: rgb( 244,192,12);
+}
+}
